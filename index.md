@@ -3,7 +3,7 @@ layout: default
 title: Meus Links
 ---
 
-<img src="https://github.com/seu-usuario.png" alt="Vinicius">
+<img src="/assets/FCD6F520-44B0-4031-8F9B-68A044BCC488.JPG" alt="Vinicius">
 
 # Vinicius
 **Senior Graphic Designer**
