@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    </head>
+<body>
+    <header>
+        <img src="{{ site.user_avatar }}" alt="Profile Picture">
+        <h1>{{ site.title }}</h1>
+    </header>
+
+    <main>
+        {% for link in site.data.links %}
+        <a href="{{ link.url }}" class="button-link">
+            <i class="{{ link.icon }}"></i>
+            {{ link.title }}
+        </a>
+        {% endfor %}
+    </main>
+</body>
+</html>
